@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.carousel-item img {
+  height: 78.5vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.vegetables {
+  background-image: url("/assets/images/bg.jpg");
+  height: 530px;
+  background-position: center;
+  background-size: cover;
+}
+
+.heading {
+  font-family: "Roboto Slab", serif;
+}
+
+.box {
+  position: relative;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.box:hover {
+  margin-top: -10px;
+}
+
+.text {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.box img {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.menu {
+  background-image: url("/assets/images/bg-food.jpg");
+  height: 530px;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu-items img {
+  height: 415px;
+  width: 300px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.extra-bg {
+  background-image: url("/assets/images/bg-extra.jpg");
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+
+.wedding {
+  background-image: url("/assets/images/wed-bg.jpg");
+  height: 530px;
+  background-position: center;
+  background-size: cover;
+}
+
+.team {
+  background-color: #f2f3f1;
+  height: max-content;
+  padding: 100px 0px;
+}
+
+.team-pic img {
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+}
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .vegetables {
+    height: 1500px;
+  }
+  .menu {
+    height: 2700px;
+  }
+  .menu-items img {
+    width: 350px;
+  }
+  .wedding {
+    height: 2700px;
+  }
+  .text {
+    left: 35%;
+  }
+}
