@@ -97,21 +97,61 @@ p {
   width: 100%;
   object-fit: cover;
 }
+
+footer {
+  background-image: url("/assets/images/footer-background.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.social-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.google-pay img {
+  height: 30px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.money img {
+  height: 30px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.cash img {
+  height: 30px;
+  width: 50px;
+  object-fit: cover;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   .vegetables {
     height: 1500px;
   }
+
   .menu {
     height: 2700px;
   }
+
   .menu-items img {
     width: 350px;
   }
+
   .wedding {
     height: 2700px;
   }
+
   .text {
     left: 35%;
+  }
+
+  footer {
+    background-position: left;
   }
 }
