@@ -165,6 +165,13 @@ p {
   padding: 100px 0px;
 }
 
+.our-team {
+  background-image: url("/assets/images/food-bg-members.jpg");
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+}
+
 .team-pic img {
   height: 550px;
   width: 100%;
@@ -234,6 +241,10 @@ footer {
 
   .contact {
     height: 840px;
+  }
+
+  .our-team {
+    height: 1710px;
   }
 
   .text {
