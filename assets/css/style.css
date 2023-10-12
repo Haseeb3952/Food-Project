@@ -17,6 +17,7 @@ button {
 p {
   font-family: "Montserrat", sans-serif;
 }
+
 /* Custom styles for the navbar */
 .navbar {
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -41,9 +42,6 @@ p {
   color: black !important;
 }
 
-
-
-
 .carousel-item img {
   height: 100vh;
   width: 100%;
@@ -55,6 +53,20 @@ p {
   height: 530px;
   background-position: center;
   background-size: cover;
+}
+
+
+
+.sidebar {
+  right: 0px;
+}
+
+.sidebar-items a i {
+  transition: 0.3s;
+}
+
+.sidebar-items a i:hover {
+  transform: scale(1.5);
 }
 
 .heading {
