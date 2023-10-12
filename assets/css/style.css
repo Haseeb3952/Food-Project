@@ -17,9 +17,35 @@ button {
 p {
   font-family: "Montserrat", sans-serif;
 }
+/* Custom styles for the navbar */
+.navbar {
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Add a shadow to the navbar */
+.navbar.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Set initial text color of nav-items to white */
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+/* Change background color of navbar and text color of nav-items when the navbar is scrolled */
+.navbar.scrolled {
+  background-color: white !important;
+}
+
+.navbar.scrolled .navbar-nav .nav-link {
+  color: black !important;
+}
+
+
+
 
 .carousel-item img {
-  height: 78.5vh;
+  height: 100vh;
   width: 100%;
   object-fit: cover;
 }
