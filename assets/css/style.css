@@ -8,6 +8,7 @@ body {
   margin: 0%;
   padding: 0%;
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
 button {
@@ -86,6 +87,8 @@ p {
 
 .sidebar {
   right: 0px;
+  position: fixed !important;
+  top: 50%;
 }
 
 .sidebar-items a i {
@@ -152,7 +155,7 @@ p {
 }
 
 .contact {
-  background-image: url("/assets/images/contact-us-bg.jpg");
+  background-image: url("/assets/images/contact-us-bg.png");
   height: 640px;
   background-position: center;
   background-size: cover;
