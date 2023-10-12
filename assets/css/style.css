@@ -39,7 +39,6 @@ p {
   background-color: white !important;
 }
 
-
 #goToTopBtn {
   display: none;
   position: fixed;
@@ -83,12 +82,11 @@ p {
   background-size: cover;
 }
 
-
-
 .sidebar {
   right: 0px;
   position: fixed !important;
-  top: 50%;
+  top: 40%;
+  z-index: 9999;
 }
 
 .sidebar-items a i {
@@ -261,5 +259,4 @@ footer {
   .google-map {
     height: 300px;
   }
-
 }
