@@ -38,6 +38,33 @@ p {
   background-color: white !important;
 }
 
+
+#goToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4fdcad;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 999;
+}
+
+#goToTopBtn i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#goToTopBtn:hover {
+  opacity: 0.8;
+}
+
 .navbar.scrolled .navbar-nav .nav-link {
   color: black !important;
 }
@@ -124,6 +151,14 @@ p {
   background-size: cover;
 }
 
+.contact {
+  background-image: url("/assets/images/contact-us-bg.jpg");
+  height: 640px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .team {
   background-color: #f2f3f1;
   height: max-content;
@@ -167,6 +202,18 @@ footer {
   border-radius: 3px;
 }
 
+.google-map {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.google-map img {
+  height: 100%;
+  width: 100%;
+  filter: grayscale(60%);
+}
+
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   .vegetables {
@@ -185,6 +232,10 @@ footer {
     height: 2700px;
   }
 
+  .contact {
+    height: 840px;
+  }
+
   .text {
     left: 35%;
   }
@@ -192,4 +243,9 @@ footer {
   footer {
     background-position: left;
   }
+
+  .google-map {
+    height: 300px;
+  }
+
 }

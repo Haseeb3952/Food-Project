@@ -16,3 +16,30 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    var goToTopButton = document.getElementById("goToTopBtn");
+
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            goToTopButton.style.display = "block";
+        } else {
+            goToTopButton.style.display = "none";
+        }
+    }
+
+    function goToTop() {
+        // Smooth scroll to the top
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+    goToTopButton.addEventListener("click", goToTop);
+});
+

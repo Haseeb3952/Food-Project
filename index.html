@@ -13,14 +13,20 @@
       crossorigin="anonymous"
     />
 
-    <!-- Box icons CDN -->
+    <!-------------------------------------------- Box icons CDN ---------------------------------------->
 
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
 
-    <title>Food & Drink - Delivered | The Best Quality</title>
+    <!-------------------------------------------- Uni Icons CDN --------------------------------------------->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <title>The Cantina Taste - The Tasty House</title>
+
+    <!-------------------------------------------- Custom CSS Link ------------------------------------->
 
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
@@ -53,7 +59,7 @@
                     <a
                       class="nav-link active fw-bold px-3"
                       aria-current="page"
-                      href="#"
+                      href="/index.html"
                       >Home</a
                     >
                   </li>
@@ -61,7 +67,7 @@
                     <a
                       class="nav-link active fw-bold px-3"
                       aria-current="page"
-                      href="#"
+                      href="/openingHours.html"
                       >Opening Hours</a
                     >
                   </li>
@@ -69,7 +75,7 @@
                     <a
                       class="nav-link active fw-bold px-3"
                       aria-current="page"
-                      href="#"
+                      href="/aboutUs.html"
                       >About Us</a
                     >
                   </li>
@@ -77,7 +83,7 @@
                     <a
                       class="nav-link active fw-bold px-3"
                       aria-current="page"
-                      href="#"
+                      href="/contactUs.html"
                       >Contact Us</a
                     >
                   </li>
@@ -85,7 +91,7 @@
                     <a
                       class="nav-link active fw-bold px-3"
                       aria-current="page"
-                      href="#"
+                      href="/ourMenu.html"
                       >Our Menu & Pricing</a
                     >
                   </li>
@@ -98,7 +104,11 @@
     </section>
 
     <!---------------------------------------- Navbar Section Ended -------------------------------------->
-
+ 
+    <button id="goToTopBtn" class="text-center" onclick="goToTop()">
+      <i class="uil uil-arrow-up"></i>
+    </button>
+  
     <!---------------------------------------- Hero Section Started ------------------------------------->
 
     <section>
@@ -191,24 +201,35 @@
       </div>
     </section>
 
-    <!---------------------------------------- Hero Section Ended ------------------------------------->
+    <!------------------------------------------ Hero Section Ended -------------------------------------->
+
     <!--------------------------------------- Sidebar Section Started ------------------------------------>
 
     <section>
       <div class="main-sidebar position-relative">
         <div class="sidebar position-absolute p-3">
-          <div class="sidebar-items p-2  bg-dark">
-            <a href="tel:0141611480" class="d-flex justify-content-center align-items-center text-decoration-none">
+          <div class="sidebar-items p-2 bg-dark">
+            <a
+              href="tel:0141611480"
+              class="d-flex justify-content-center align-items-center text-decoration-none"
+            >
               <i class="bx text-white fs-4 bx-phone"></i>
             </a>
           </div>
-          <div class="my-2 sidebar-items p-2  bg-dark">
-            <a href="mailto:clearbusinessbyadrian@gmail.com" class="d-flex justify-content-center align-items-center text-decoration-none">
+          <div class="my-2 sidebar-items p-2 bg-dark">
+            <a
+              href="mailto:clearbusinessbyadrian@gmail.com"
+              class="d-flex justify-content-center align-items-center text-decoration-none"
+            >
               <i class="bx text-white fs-4 bx-envelope"></i>
             </a>
           </div>
-          <div class="sidebar-items p-2  bg-dark">
-            <a href="https://maps.app.goo.gl/Sthi8Xis7wj54g6y9" target="_blank" class="d-flex justify-content-center align-items-center text-decoration-none">
+          <div class="sidebar-items p-2 bg-dark">
+            <a
+              href="https://maps.app.goo.gl/Sthi8Xis7wj54g6y9"
+              target="_blank"
+              class="d-flex justify-content-center align-items-center text-decoration-none"
+            >
               <i class="bx text-white fs-4 bx-map"></i>
             </a>
           </div>
@@ -614,18 +635,18 @@
 
     <!----------------------------------------- Form Section Started ----------------------------------->
 
-    <section class="my-5">
+    <section class="my-5 contact">
       <div class="container">
         <div class="text-center">
-          <h1 class="heading">Contact Us</h1>
+          <h1 class="heading pt-5 text-white">Contact Us</h1>
           <h2>
             <a
               href="tel:0141611480"
-              class="text-decoration-none text-dark heading"
+              class="text-decoration-none text-white heading"
               >0141611480</a
             >
           </h2>
-          <p class="text-muted text-center">
+          <p class="text-white text-center">
             If you’d like to place an order with us or even if you have any
             queries please give us a call or drop us a message. We look forward
             to hearing from you.
@@ -634,12 +655,14 @@
         <div class="row">
           <div class="col-12 col-md-4">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label heading"
+              <label
+                for="exampleInputEmail1"
+                class="form-label text-white-50 heading"
                 >Name:</label
               >
               <input
                 type="name"
-                class="form-control"
+                class="form-control bg-transparent text-white-50"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
@@ -647,12 +670,14 @@
           </div>
           <div class="col-12 col-md-4">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label heading"
+              <label
+                for="exampleInputEmail1"
+                class="form-label text-white-50 heading"
                 >Email:</label
               >
               <input
                 type="name"
-                class="form-control"
+                class="form-control bg-transparent text-white-50"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
@@ -660,12 +685,14 @@
           </div>
           <div class="col-12 col-md-4">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label heading"
+              <label
+                for="exampleInputEmail1"
+                class="form-label text-white-50 heading"
                 >Phone:</label
               >
               <input
                 type="number"
-                class="form-control"
+                class="form-control bg-transparent text-white-50"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
@@ -674,13 +701,15 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <label for="exampleInputEmail1" class="form-label heading"
+            <label
+              for="exampleInputEmail1"
+              class="form-label heading text-white-50"
               >Message:</label
             >
 
             <textarea
               name=""
-              class="form-control"
+              class="form-control bg-transparent text-white-50"
               id=""
               cols="30"
               rows="5"
@@ -688,25 +717,25 @@
             <div class="text-center mt-5">
               <button
                 type="button"
-                class="btn btn-outline-secondary text-uppercase"
+                class="btn btn-outline-light text-uppercase"
               >
                 Send Message
               </button>
-              <div class="mt-5 d-flex gap-4 justify-content-center">
+              <div class="mt-4 d-flex gap-4 justify-content-center">
                 <a href="#" class="text-decoration-none">
-                  <i class="bx fs-2 text-dark bxl-facebook"></i>
+                  <i class="bx fs-2 text-white bxl-facebook"></i>
                 </a>
                 <a href="#" class="text-decoration-none">
-                  <i class="bx fs-2 text-dark bxl-instagram"></i>
+                  <i class="bx fs-2 text-white bxl-instagram"></i>
                 </a>
                 <a href="https://wa.me/0141611480" class="text-decoration-none">
-                  <i class="bx fs-2 text-dark bxl-whatsapp"></i>
+                  <i class="bx fs-2 text-white bxl-whatsapp"></i>
                 </a>
                 <a
                   href="mailto:clearbusinessbyadrian@gmail.com"
                   class="text-decoration-none"
                 >
-                  <i class="bx fs-2 text-dark bx-envelope"></i>
+                  <i class="bx fs-2 text-white bx-envelope"></i>
                 </a>
               </div>
             </div>
@@ -736,19 +765,23 @@
             <div class="pt-4">
               <ul class="list-unstyled">
                 <li>
-                  <a href="#" class="text-white-50">Home</a>
+                  <a href="/index.html" class="text-white-50">Home</a>
                 </li>
                 <li>
-                  <a href="#" class="text-white-50">Opening Hours</a>
+                  <a href="/openingHours.html" class="text-white-50"
+                    >Opening Hours</a
+                  >
                 </li>
                 <li>
-                  <a href="#" class="text-white-50">About Us</a>
+                  <a href="/aboutUs.html" class="text-white-50">About Us</a>
                 </li>
                 <li>
-                  <a href="#" class="text-white-50">Contact Us</a>
+                  <a href="/contactUs.html" class="text-white-50">Contact Us</a>
                 </li>
                 <li>
-                  <a href="#" class="text-white-50">Our Menu & Pricing</a>
+                  <a href="/ourMenu.html" class="text-white-50"
+                    >Our Menu & Pricing</a
+                  >
                 </li>
               </ul>
             </div>
@@ -829,7 +862,9 @@
       </p>
     </div>
 
-    <!----------------------------------------- Footer Section Ended ----------------------------------->
+    <!----------------------------------------- Footer Section Ended ------------------------------------>
+
+    <!---------------------------------------- Custom JavaScript Link ----------------------------------->
 
     <script src="/assets/script/myScript.js"></script>
 
